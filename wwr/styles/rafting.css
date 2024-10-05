@@ -1,0 +1,143 @@
+:root {
+    --primary-color: #011936;
+    --secondary-color: #465362;
+    --accent1-color: #82A3A1;
+    --accent2-color: #FCF1EE;
+
+    --heading-font: 'Oswald', 500, 700;
+    --text-font: 'Roboto', 300, 400, 600;
+}
+
+
+body {
+    font-family: var(--text-font);
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+p {
+    font-family: var(--text-font);
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.social-media a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.social-media a:hover {
+    color: var(--accent1-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--accent1-color);
+    position: absolute;
+    top: 20px;
+    left: 23%;
+    border-width: 10px;
+    z-index: 2;
+}
+
+article {
+    position: absolute;
+    bottom: 20px;
+    background-color: #011936a2;
+
+    padding: 20px;
+    z-index: 2;
+}
+
+article p {
+    margin: 0;
+    color: white;
+    font-family: var(--text-font);
+    font-size: 20px;
+}
+
+article img {
+    float: right;
+    margin-left: 20px;
+    max-width: 40%;
+    height: auto;
+}
+
+
+section img {
+    width: 420px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+}
+
+section h2 {
+    font-size: xx-large;
+    color: #011936;
+}
+
+section p {
+    font-size: 22px;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.button {
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+footer img{
+    width: 4%;
+    height: auto;
+}
