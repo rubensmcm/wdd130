@@ -12,8 +12,6 @@ header{
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    background-color: --primary-color;
-    border: var(--primary-color);
     border-width: 30px;
     padding: 20px;
 }
@@ -121,7 +119,8 @@ article img {
 section h2 {
     text-align: center;
     font-size: xx-large;
-    font-family: var(--heading-font, 700);
+    font-family: var(--heading-font);
+    font-weight: 700;
     color: var(--accent1-color);
 }
 
@@ -190,7 +189,8 @@ figure img {
 
 figcaption {
     font-size: 1em;
-    font-family: var(--text-font, 400);
+    font-family: var(--text-font);
+    font-weight: 300;
     color: #011936;
     margin-top: 5px;
 }
