@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting Home Page</title>
+    <meta name="description" content="Rubens Marcolino | WDD130 - home page">
+    <meta name="author" content="Rubens Marcolino">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/clear-logo.png" alt="White Water Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero2">
+            <img src="images/hero-background.png" alt="Hero Image - Rafting Adventure">
+            <div class="hero-text">
+                <h1>WELCOME TO THE WORLD OF WHITE WATER RAFTING</h1>
+                <p>Experience thrilling rides and unforgettable moments.</p>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Ready for Adventures? Look up for our trips!</h2>
+            <img src="images/trips_pics.jpeg" alt="Adventure Icon" class="cta-icon">
+            <a href="trips.html" class="btn">Check Out Our Trips!</a>
+        </section>
+        
+        <section class="newsletter">
+            <h2>Sign Up for Our Newsletter!</h2>
+            <img src="images/mail_icon.png" alt="Newsletter Icon" class="newsletter-icon">
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section class="offerings">
+            <h2>What We Offer</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="images/challenges.jpeg" alt="Adventure Image">
+                    <h3>Unmatched Adventure</h3>
+                    <p>Explore the wild and take on nature’s challenges.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/nature.jpeg" alt="Nature Image">
+                    <h3>Connect with Nature</h3>
+                    <p>Enjoy scenic landscapes and tranquil surroundings.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/family.jpeg" alt="Family Image">
+                    <h3>Fun for All Ages</h3>
+                    <p>Bring the whole family for an experience everyone will enjoy.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 White Water Rafting, Rubens Marcolino</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/Rounded_Facebook_svg-128.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/Rounded_Twitter5_svg-128.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/Rounded_Instagram_svg-128.webp" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+</html>
