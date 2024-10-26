@@ -399,7 +399,7 @@ input[type="radio"] {
     transform: translate(-50%, -50%);
     z-index: 1;
     color: var(--accent2-color);
-    text-shadow: rgba(0, 0, 0, 0.735);
+    text-shadow: black;
     background-color: rgba(1, 25, 54, 0.5);
     padding: 20px;
     border-radius: 5px;
