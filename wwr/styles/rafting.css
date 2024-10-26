@@ -247,7 +247,6 @@ footer img {
     width: 40px;
     height: auto;
     transition: transform 0.3s ease;
-    box-shadow: 2px var(--accent2-color);
 }
 
 footer img:hover {
@@ -400,7 +399,7 @@ input[type="radio"] {
     transform: translate(-50%, -50%);
     z-index: 1;
     color: var(--accent2-color);
-    text-shadow: 2px rgba(0, 0, 0, 0.7); 
+    text-shadow: rgba(0, 0, 0, 0.735);
     background-color: rgba(1, 25, 54, 0.5);
     padding: 20px;
     border-radius: 5px;
